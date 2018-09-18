@@ -3,7 +3,7 @@ package nl.bravobit.ffmpeg;
 import java.util.Arrays;
 import java.util.Map;
 
-class ShellCommand {
+public final class ShellCommand {
 
     Process run(String[] commandString, Map<String, String> environment) {
         Process process = null;

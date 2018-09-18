@@ -1,6 +1,6 @@
 package nl.bravobit.ffmpeg;
 
-class CommandResult {
+public final class CommandResult {
     final String output;
     final boolean success;
 

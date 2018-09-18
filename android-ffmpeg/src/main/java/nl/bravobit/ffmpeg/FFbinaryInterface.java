@@ -2,7 +2,7 @@ package nl.bravobit.ffmpeg;
 
 import java.util.Map;
 
-interface FFbinaryInterface {
+public interface FFbinaryInterface {
 
     /**
      * Executes a command

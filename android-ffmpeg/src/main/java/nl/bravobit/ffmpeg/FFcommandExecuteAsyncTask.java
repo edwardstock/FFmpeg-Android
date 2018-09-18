@@ -9,7 +9,7 @@ import java.io.OutputStream;
 import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
-class FFcommandExecuteAsyncTask extends AsyncTask<Void, String, CommandResult> implements FFtask {
+public final class FFcommandExecuteAsyncTask extends AsyncTask<Void, String, CommandResult> implements FFtask {
 
     private final String[] cmd;
     private Map<String, String> environment;
